@@ -16,7 +16,7 @@ public class KubeController {
         return RouterFunctions
                 .route()
                 .GET("/greet", request -> ServerResponse.ok()
-                        .body(new ResponseEntity<String>("Hello Kubernetes!", HttpStatus.OK)))
+                        .body(new ResponseEntity<String>("Hello Kubernetes!!!", HttpStatus.OK)))
                 .build();
     }
 }
